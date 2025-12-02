@@ -15,13 +15,43 @@ struct MatchsView: View {
     // MARK: - Body
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            let matchs = viewModel.matchs
+            ForEach(matchs, id: \.id) { match in
+                ZStack(alignment: .topTrailing) {
+                    VStack(spacing: 0) {
+                        let isFirst = match == matchs.first
+                        let isLast = match == matchs.last
+                        MatchView(
+                            match: match,
+                            isFirst: isFirst,
+                            isLast: isLast
+                        )
+                        SeparatorView(
+                            isLast: isLast
+                        )
+                    }
+                    BadgeView(match: match)
+                }
+                .listRowSeparator(.hidden)
+                .listRowInsets(
+                    EdgeInsets(
+                        top: 0,
+                        leading: 10,
+                        bottom: 0,
+                        trailing: 10,
+                    ),
+                )
+            }
         }
-        .padding()
+        .listStyle(.plain)
+        .scrollContentBackground(.hidden)
+        .background(Color(.containerBackground))
+        .environment(\.defaultMinListRowHeight, 0)
+        .padding(.top, 10)
+        .refreshable {
+            viewModel.refreshMatchs()
+        }
         .onAppear {
             viewModel.viewDidAppear()
         }
