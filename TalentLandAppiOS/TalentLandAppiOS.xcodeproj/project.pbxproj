@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		63DFDA482EDECE5A00075CE8 /* TalentLandAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalentLandAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DFDA482EDECE5A00075CE8 /* TalentLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalentLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		63DFDA4A2EDECE5A00075CE8 /* TalentLandAppiOS */ = {
+		63DFDA4A2EDECE5A00075CE8 /* TalentLand */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TalentLandAppiOS;
+			path = TalentLand;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		63DFDA3F2EDECE5A00075CE8 = {
 			isa = PBXGroup;
 			children = (
-				63DFDA4A2EDECE5A00075CE8 /* TalentLandAppiOS */,
+				63DFDA4A2EDECE5A00075CE8 /* TalentLand */,
 				63DFDA492EDECE5A00075CE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		63DFDA492EDECE5A00075CE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63DFDA482EDECE5A00075CE8 /* TalentLandAppiOS.app */,
+				63DFDA482EDECE5A00075CE8 /* TalentLand.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63DFDA472EDECE5A00075CE8 /* TalentLandAppiOS */ = {
+		63DFDA472EDECE5A00075CE8 /* TalentLand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63DFDA532EDECE5A00075CE8 /* Build configuration list for PBXNativeTarget "TalentLandAppiOS" */;
+			buildConfigurationList = 63DFDA532EDECE5A00075CE8 /* Build configuration list for PBXNativeTarget "TalentLand" */;
 			buildPhases = (
 				63DFDA442EDECE5A00075CE8 /* Sources */,
 				63DFDA452EDECE5A00075CE8 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				63DFDA4A2EDECE5A00075CE8 /* TalentLandAppiOS */,
+				63DFDA4A2EDECE5A00075CE8 /* TalentLand */,
 			);
-			name = TalentLandAppiOS;
+			name = TalentLand;
 			packageProductDependencies = (
 			);
 			productName = TalentLandAppiOS;
-			productReference = 63DFDA482EDECE5A00075CE8 /* TalentLandAppiOS.app */;
+			productReference = 63DFDA482EDECE5A00075CE8 /* TalentLand.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63DFDA472EDECE5A00075CE8 /* TalentLandAppiOS */,
+				63DFDA472EDECE5A00075CE8 /* TalentLand */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63DFDA532EDECE5A00075CE8 /* Build configuration list for PBXNativeTarget "TalentLandAppiOS" */ = {
+		63DFDA532EDECE5A00075CE8 /* Build configuration list for PBXNativeTarget "TalentLand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63DFDA542EDECE5A00075CE8 /* Debug */,
